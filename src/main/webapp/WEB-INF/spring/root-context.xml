@@ -12,6 +12,7 @@
 		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd">
 	
 	<!--  MySQL -->
+	<!-- 
 	<bean id="dataSource"
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver"></property>
@@ -19,7 +20,7 @@
 		<property name="username" value="ostus"></property>
 		<property name="password" value="qw1311rjs!"></property>
 	</bean>
-	
+	 -->
 	<!-- Oracle -->
 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
     <property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"></property>
